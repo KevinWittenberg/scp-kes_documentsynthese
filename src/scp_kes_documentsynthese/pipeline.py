@@ -364,11 +364,11 @@ def make_final_synthesis(
         f"AANTAL PAPERRECORDS: {len(records)}\n\n"
         "CONCEPTFREQUENTIES:\n"
         f"{concept_frequency_text(counts)}\n\n"
-        "BRONMATERIAAL VOOR DEZE SYNTHese:\n"
+        "BRONMATERIAAL VOOR DEZE SYNTHESE:\n"
         f"{synthesis_material}"
     )
 
-    print("SYNTHese  eindsynthese")
+    print("SYNTHESE  eindsynthese")
     response = api_call_with_retry(
         client,
         settings,
