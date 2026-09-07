@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime output
+outputs/*
+!outputs/.gitkeep
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
