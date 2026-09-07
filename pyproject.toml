@@ -9,7 +9,7 @@ description = "LLM-pipeline voor paper-voor-paper extractie en synthese van lite
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-  "openai>=1.0.0",
+  "openai>=3.8.0,<4",
   "python-dotenv>=1.0.0",
 ]
 
